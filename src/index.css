@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('../src/assets/clash-display/clash-display.css');
+
+/* font-family: ClashDisplay-Extralight;
+font-family: ClashDisplay-Light;
+font-family: ClashDisplay-Regular;
+font-family: ClashDisplay-Medium;
+font-family: ClashDisplay-Semibold;
+font-family: ClashDisplay-Bold;
+font-family: ClashDisplay-Variable; */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply font-sans;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    @apply font-clashVariable;
+  }
+
+  h6 {
+    @apply font-semibold text-lg;
+  }
+
+  input[type=text] {
+    @apply px-4 py-3 text-base leading-6 text-gray-400 bg-white border border-solid border-zinc-200 focus:ring-primary-500 focus:border-primary-500 block w-full
+  }
+}
