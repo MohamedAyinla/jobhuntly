@@ -8,7 +8,9 @@ function Header() {
     <div className="flex items-center justify-between p-4">
       <div className="flex items-center gap-x-2" onClick={() => navigate('/')}>
         <img src="/img/logo.png" className="w-8 h-8" alt="logo" />
-        <span className="font-redHatDisplay font-bold text-2xl">JobHuntly</span>
+        <span className="font-redHatDisplay font-bold text-2xl text-neutral-700">
+          JobHuntly
+        </span>
       </div>
 
       <IconButton

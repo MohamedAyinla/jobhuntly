@@ -16,7 +16,16 @@ font-family: ClashDisplay-Variable; */
 
 @layer base {
   html {
-    @apply font-sans;
+    @apply font-sans text-neutral-600;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply text-neutral-700;
   }
 
   h1,
@@ -31,7 +40,7 @@ font-family: ClashDisplay-Variable; */
     @apply font-semibold text-lg;
   }
 
-  input[type=text] {
-    @apply px-4 py-3 text-base leading-6 text-gray-400 bg-white border border-solid border-zinc-200 focus:ring-primary-500 focus:border-primary-500 block w-full
+  input[type='text'] {
+    @apply px-4 py-3 text-base leading-6 text-gray-400 bg-white border border-solid border-zinc-200 focus:ring-primary focus:border-primary block w-full;
   }
 }

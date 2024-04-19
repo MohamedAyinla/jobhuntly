@@ -32,7 +32,7 @@ function Footer() {
 
       <div className="grid grid-cols-2">
         <div>
-          <h6 className="mb-[18px]">About</h6>
+          <h6 className="mb-[18px] text-white">About</h6>
           <ul className="space-y-4 text-base text-secondary-100">
             <li>Company</li>
             <li>Pricing</li>
@@ -42,7 +42,7 @@ function Footer() {
           </ul>
         </div>
         <div>
-          <h6 className="mb-[18px]">Ressources</h6>
+          <h6 className="mb-[18px] text-white">Ressources</h6>
           <ul className="space-y-4 text-base text-secondary-100">
             <li>Help Docs</li>
             <li>Guide</li>
@@ -54,7 +54,7 @@ function Footer() {
 
       <div>
         <div className="mb-4">
-          <h6 className="mb-2">Get job notifications</h6>
+          <h6 className="mb-2 text-white">Get job notifications</h6>
           <p className="text-base text-secondary-100">
             The latest job news, articles, sent to your inbox weekly.
           </p>

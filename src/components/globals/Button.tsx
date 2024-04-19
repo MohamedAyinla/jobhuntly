@@ -17,8 +17,8 @@ const Button: React.FC<ButtonProps> = ({
 }) => {
   const baseStyle = 'focus:outline-none font-bold py-2 px-6 py-3';
   const variantStyles = {
-    primary: 'bg-primary-500 text-white hover:bg-blue-700',
-    secondary: 'bg-gray-300 text-black hover:bg-gray-400',
+    primary: 'bg-primary text-white hover:bg-primary/50',
+    secondary: 'bg-secondary text-black hover:bg-gray-400',
   };
 
   const variantStyle = variantStyles[variant];
